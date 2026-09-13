@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- موبایل -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>رستوران ایرانی | غذای اصیل ایرانی</title>
+    <meta name="description" content="رستوران ایرانی با انواع غذاهای اصیل و خوشمزه ایرانی. مشاهده منو، آدرس، ساعات کاری و اطلاعات تماس.">
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="رستوران ایرانی">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="رستوران ایرانی">
+    <meta property="og:description" content="غذاهای اصیل و خوشمزه ایرانی">
+    <meta property="og:type" content="website">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            background: #fafafa;
+            color: #222;
+            line-height: 1.8;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: #eee;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #222;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .food {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .food h3 {
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .contact {
+            text-align: center;
+            background: #eee;
+            max-width: none;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .hero p {
+                font-size: 17px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>رستوران ایرانی</h2>
+
+    <nav aria-label="منوی اصلی">
+        <a href="#home">خانه</a>
+        <a href="#menu">منو</a>
+        <a href="#about">درباره ما</a>
+        <a href="#contact">تماس با ما</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="home" class="hero">
+        <div>
+            <h1>رستوران ایرانی</h1>
+
+            <p>
+                طعم اصیل غذاهای ایرانی در فضایی دلنشین
+            </p>
+
+            <a class="button" href="#menu">
+                مشاهده منو
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>منوی رستوران</h2>
+
+        <div class="menu">
+
+            <article class="food">
+                <h3>چلو کباب</h3>
+                <p>کباب تازه با برنج ایرانی و دورچین</p>
+                <div class="price">قیمت: ۱۵۰,۰۰۰ تومان</div>
+            </article>
+
+            <article class="food">
+                <h3>قورمه سبزی</h3>
+                <p>خورشت قورمه سبزی با برنج ایرانی</p>
+                <div class="price">قیمت: ۱۳۰,۰۰۰ تومان</div>
+            </article>
+
+            <article class="food">
+                <h3>جوجه کباب</h3>
+                <p>جوجه کباب زعفرانی با برنج ایرانی</p>
+                <div class="price">قیمت: ۱۴۰,۰۰۰ تومان</div>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>درباره رستوران</h2>
+
+        <p>
+            ما تلاش می‌کنیم غذاهای اصیل ایرانی را با مواد اولیه تازه
+            و کیفیت بالا برای شما آماده کنیم.
+        </p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>تماس با ما</h2>
+
+        <p>📍 آدرس: آدرس رستوران</p>
+        <p>📞 تلفن: ۰۹۱۲۱۲۳۴۵۶۷</p>
+        <p>🕐 ساعات کاری: هر روز ۱۲ تا ۲۳</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© ۲۰۲۶ رستوران ایرانی - تمامی حقوق محفوظ است.</p>
+</footer>
+
+</body>
+</html>
